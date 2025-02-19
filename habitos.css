@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --grey: hsl(0, 0%, 96%);
+    --blue: hsl(207, 90%, 54%);
+    --main: hsl(122, 39%, 49%);
+}
+body{
+    background-color: var(--grey);
+    color: var(--blue);
+    font-family: "Roboto", serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+header{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 600;
+}
+header img{
+    width: 64px;
+}
+main{
+    margin-block: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.habit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 360px;
+}
+.habit input[type="text"]{
+    border: 1px solid;
+    border-color: var(--blue);
+    border-radius: 5px;
+    outline: none;
+    height: 35px;
+    width: 300px;
+    padding-inline: 10px;
+}
+.habitos{
+    display: inline-block;
+}
+.habitos h1{
+    font-size: 20px;
+    background-color: var(--grey);
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+}
