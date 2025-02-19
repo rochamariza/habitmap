@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+    <link rel="shortcut icon" href="Assets/IMGS/navigator.ico" type="image/x-icon">
     <title>HabitMap</title>
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="IMGS/icone.png" alt=""></a>
+        <a href="index.html"><img src="Assets/IMGS/icone.png" alt=""></a>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,11 +51,11 @@
                 <a href="habitos.html"><button type="button" class="btn btn-success">Começar</button></a>
             </div>
             <div class="card-2">
-                <img src="IMGS/images.jpg" alt="">
+                <img src="Assets/IMGS/images.jpg" alt="">
             </div>
         </div>
-        <div class="main-features">
-          <h1 class="fs-4 fw-bold text-center pt-5">Nossas aplicações</h1>
+        <div class="main-features p-5">
+          <h1 class="fs-4 fw-bold text-center">Nossas aplicações</h1>
           <div class="row align-items-md-center row-cols-3 row-cols-md-4 g-4 py-4 justify-content-center">
             <div class="col d-flex flex-column gap-2 align-items-md-center justify-content-center col-sm">
               <h1 class="fs-5 text-center text-bold">Lista de Afazeres</h1>
@@ -69,12 +70,60 @@
             <div class="col d-flex flex-column gap-2 align-items-md-center col-sm">
               <h1 class="fs-5 text-center text-bold">Roadmap de sua Vida</h1>
               <p class="text-center">Uma maneira de reorganizar sua vida e guiar seu camino</p>
-              <a href="habitos.html"><button type="button" class="btn btn-success a">Clique aqui</button></a>
+              <a href="roadmap.html"><button type="button" class="btn btn-success a">Clique aqui</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="empresas text-center">
+          <h1 class="fs-4 fw-bold text-center pt-5 text-success text-center">Empresas que utilizam nossos serviços</h1>
+          <div class="container p-5">
+            <div class="row">
+              <div class="col">
+                <img src="Assets/IMGS/airbnb-2-logo-svgrepo-com.svg" alt="airbnb">
+              </div>
+              <div class="col">
+                <img src="Assets/IMGS/bmw-logo-svgrepo-com.svg" alt="bmw">
+              </div>
+              <div class="col">
+                <img src="Assets/IMGS/google-icon-logo-svgrepo-com.svg" alt="google">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <img src="Assets/IMGS/mcdonald-s-15-logo-svgrepo-com.svg" alt="mcdonalds">
+              </div>
+              <div class="col">
+                <img src="Assets/IMGS/slack-logo-svgrepo-com.svg" alt="slack">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="avaliacoes">
+          <div class="row align-items-center justify-content-center gap-4 m-5">
+            <div class="col border border-success-subtle p-4 col-4">
+              <h1 class="fs-6 text-success">"Desde que comecei a utilizar o pacote de ferramentas para meus hábitos, me sinto mais controlado."</h1>
+              <p class="text-primary text-end"> - Lukas Graham, CTO da CloseAI</p>
+            </div>
+            <div class="col border border-success-subtle p-4 col-4">
+              <h1 class="fs-6 text-success">"Desde que comecei a utilizar o pacote de ferramentas para meus hábitos, me sinto mais controlado."</h1>
+              <p class="text-primary text-end"> - Lukas Graham, CTO da CloseAI</p>
             </div>
           </div>
         </div>
     </main>
-    
+    <footer>
+
+  <footer class="py-3 my-4 pt-5">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Início</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Downloads</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Sobre nós</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">© 2024 Habit Map, Inc</p>
+  </footer>
+
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
