@@ -8,9 +8,15 @@ function lista(){
             </div>`
 }
 function criar(){
-    let opa = document.createElement("div")
-    opa.insertAdjacentElement("afterend", opa)
-    index++;
-    opa.innerHTML = lista();
-    habitos.appendChild(opa)
+    if(input.value.length >= 3){
+        let opa = document.createElement("div")
+        opa.insertAdjacentElement("afterend", opa)
+        index++;
+        opa.innerHTML = lista();
+        habitos.appendChild(opa)
+    }
+    else{
+        alert("A caixa deve ter no mínimo 3 caracteres")
+    }
+    
 }

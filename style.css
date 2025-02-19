@@ -41,3 +41,10 @@ header img{
 .card-1 h1{
     font-weight: 600;
 }
+.main-features{
+    color: var(--grey);
+    background-color: var(--blue);
+    min-width: 100%;
+    margin-top: 180px;
+}
+
